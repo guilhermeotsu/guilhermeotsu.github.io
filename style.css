@@ -8,10 +8,10 @@
 
 html { 
     font-size: 62.5%;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
 }
 
 .main {
-  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
   border-radius: 10px;
   background: #fff;
   display: flex;
@@ -44,26 +44,25 @@ html {
     position: fixed;
     flex-direction: column;
     text-align: center;
-    height: 65%;
+    height: 67%;
     bottom: 0;
 }
 
 .title {
     font-size: 95%;
-    height: 25%;
+    height: 15%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .me {
-    font-size: 80%;
-    height: 50%;
+    height: 43%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .icons {
@@ -83,6 +82,32 @@ code {
     margin-left: 40px;
 }
 
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 18ch;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 1.3em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 @media 
 (min-width: 720px) and (max-width: 1024px),
