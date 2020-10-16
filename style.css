@@ -86,28 +86,28 @@ code {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .typing-demo {
+.typing-demo {
     width: 18ch;
     animation: typing 3s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-size: 1.3em;
-  }
-  
-  @keyframes typing {
+}
+
+@keyframes typing {
     from {
-      width: 0
+        width: 0
     }
-  }
+}
       
-  @keyframes blink {
+@keyframes blink {
     50% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
+}
 
 @media 
 (min-width: 720px) and (max-width: 1024px),
